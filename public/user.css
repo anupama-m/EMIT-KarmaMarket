@@ -1,0 +1,92 @@
+ /* User dashboard
+------------------------------*/
+ 
+  body {
+            background-color: #e8e6e6d8;
+        }
+
+.sidebar {
+    height: 100vh;
+    background-color: #7ba3af;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h4 {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.sidebar a:hover {
+    background-color: #5a8692;
+    color: #fff;
+}
+
+.sidebar a.active {
+    background-color: #39535f;
+    font-weight: bold;
+}
+        .dashboard-content {
+            margin-left: 270px;
+            padding: 30px;
+        }
+        .btn.active {
+    font-weight: bold;
+    border-color: #343a40;
+}
+.sidebar-header h4 {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.user-icon {
+    background-color: #39535f;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.karma-points {
+    background-color: #ffffff33;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.img-fixed {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
